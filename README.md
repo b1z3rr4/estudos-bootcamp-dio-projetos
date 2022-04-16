@@ -1,2 +1,2 @@
 # Conteúdo de estudos do Bootcamp da DIO
-Repositório com arquivos de texto com o conteúdo abordado nos cursos.
+Repositório com arquivos de texto com os conteúdos abordados nos cursos.
