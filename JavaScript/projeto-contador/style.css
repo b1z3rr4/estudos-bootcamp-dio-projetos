@@ -1,0 +1,85 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgb(243, 243, 243);
+    font-family: sans-serif;
+  }
+  
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    border: 1px solid lightgray;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .flex-container h1{
+    font-size: 44px;
+    font-family: sans-serif;
+    color: orange;
+    cursor: pointer;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  
+  .flex-container h1:hover{
+    color: #d58b01;
+  }
+  
+  .btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 500px;
+    margin: 50px;
+  }
+  
+  #number{
+    font-size: 28px;
+  }
+  
+  .btn{
+    background-color: orange;
+    border: 1px solid lightgray;
+    text-align: center;
+    cursor: pointer;
+    width: 40px;
+    height: 20px;
+  }
+  
+  .btn:hover{
+    background-color: #d58b01;
+    border: 1px solid #a8a8a8;
+  }
+  
+  .btn:active{
+    background-color: #d58b01;
+    border: 1px solid black;
+  }
+  
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+  }
+  
+  .footer a{
+    color: orange;
+    text-decoration: none;
+  }
+  
+  .footer a:hover{
+    color: darkorange;
+  }
+  
+  .footer a:visited{
+    color: black;
+  }

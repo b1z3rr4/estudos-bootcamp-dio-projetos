@@ -1,5 +1,4 @@
 # Conteúdo de estudos do Bootcamp da DIO
 ##Conteúdo do curso.
-## Projeto da Aula
-Cada pasta é de um projeto diferente, tendo dentro dele projetos feito em aulas com orientação do professor.
-Algumas pastas podem conter apenas conteúdos ou desafios simples.
+## Desafios da Aula
+Cada pasta é de um desafio ou projeto diferente, tendo dentro dele arquivos html, css e js feitos em aulas com orientação do professor.

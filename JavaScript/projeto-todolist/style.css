@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100wh;
+    font-family: sans-serif;
+  }
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #141f27;
+  }
+  
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 100%;
+    border-bottom: 1px solid #205370;
+    color: #6a98b9;
+  }
+  
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    width: 100%;
+  }
+  
+  .add-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+  }
+  
+  h1{
+    cursor: pointer;
+  }
+  
+  .text-input{
+    width: 300px;
+    cursor: pointer;
+    background-color: #2d404e;
+    border-color: #205370;
+    border-top: 0;
+    color: #fff;
+    border-radius: 40px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .text-input:hover{
+    background-color: #273845;
+  }
+  
+  .btn-add{
+    background-color: #2d404e;
+    border-color: #2d404e;
+    width: 100px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 40px;
+    border-bottom: 0;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .btn-add:hover{
+    background-color: #273845;
+    border-color: #273845;
+  }
+  
+  .list-tasks{
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    margin: 20px 0;
+    word-break: break-word;
+  }
+  
+  .item-list{
+    display: flex;
+    align-items: center;
+    background-color: #2d404e;
+  }
+  
+  .checkbox-input{
+    margin: 20px;
+    min-width: 20px;
+    min-height: 20px;
+  }
+  
+  .checkbox-input:checked + span{
+    text-decoration: line-through;
+  }
+  
+  .text-list{
+    font-size: 20px;
+    color: #fff;
+    word-wrap: break-word;
+  }
+  
+  .footer{
+    color: #fff;
+  }
+  
+  .footer a{
+    text-decoration: none;
+    color: #86c7f4;
+  }
+  
+  /* Medias queries */
+  
+  @media (min-width: 720px){
+    .flex-container{
+      max-width: 720px;
+    }
+  }
+  
+  @media (max-width: 580px){
+    .add-container{
+      flex-direction: column;
+    }
+  
+    .text-input{
+      width: auto;
+      margin-bottom: 10px;
+    }
+  
+    .btn-add{
+      width: auto;
+      min-width: 100px;
+    }
+  
+    h1{
+      font-size: 30px;
+    }
+  }
