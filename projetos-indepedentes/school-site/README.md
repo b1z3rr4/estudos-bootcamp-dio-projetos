@@ -1,4 +1,4 @@
-# Cloning interface of Instagram with HTML and CSS only
+# Studing HTML and CSS
 
 <img src="print.png" alt="screenshot do site"/>
 
